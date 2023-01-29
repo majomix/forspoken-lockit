@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ForspokenTextTool": {
+      "commandName": "Project",
+      "commandLineArgs": "-id2s=\"D:\\Preklady\\Forspoken\\Backup\\param_table_cache_translation.id2s\"\r\n-parambin=\"D:\\Preklady\\Forspoken\\Backup\\text_us_46a51283.parambin\"\r\n-parambinout=\"D:\\Preklady\\Forspoken\\Demo\\text_us_46a51283.parambin\"\r\n-txt=\"D:\\Preklady\\Forspoken\\Demo\\text_us_46a51283.txt\"\r\n-import"
+    }
+  }
+}
