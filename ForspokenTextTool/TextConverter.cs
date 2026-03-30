@@ -75,7 +75,9 @@ namespace ForspokenTextTool
             foreach (var line in content)
             {
                 var split = line.Split('\t');
+                if (split.Length < 2) continue;
                 var id = split[0];
+                if (string.IsNullOrEmpty(id) || !_textFile.ResolvedEntries.ContainsKey(id)) continue;
                 var value = split[1].Replace("\\r\\n", "\r\n").Replace("\\n", "\n");
 
                 _textFile.ResolvedEntries[id].Component3 = value;
